@@ -1,6 +1,6 @@
 
 # Initial Blog Post
-# Stefan Stanojevic, Kevin Qualls
+## Stefan Stanojevic, Kevin Qualls
 
 For this project, we set out a goal of implementing algorithms something akin to Google's DeepMind to devise an AI capable of playing the game of Gomoku at a competitive level. 
 

@@ -8,6 +8,7 @@ Similar to Connect Four, Gomoku is like Connect Five (Go means 5 in Japanese, an
 
 
 <img width="249" alt="Screen Shot 2020-04-13 at 8 59 59 PM" src="https://user-images.githubusercontent.com/54907300/79174814-d85b9300-7dc9-11ea-9377-9cc909485ad2.png">
+
 Image adapted from [[2]](https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning)
 
 

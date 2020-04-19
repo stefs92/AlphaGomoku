@@ -34,11 +34,11 @@ Since this is essentially an image classification task, it makes sense to try to
 This neural network achieved a decent validation accuracy of around 55% pretty quickly, as shown in the following graphs,
 
 <p align="center">
-<img width="249" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/79679275-8bfdc200-81d2-11ea-9764-779e2714dcf7.png">
+<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/79679275-8bfdc200-81d2-11ea-9764-779e2714dcf7.png">
 </p>
 
 <p align="center">
-<img width="249" alt="loss" src="https://user-images.githubusercontent.com/31740043/79679333-1d6d3400-81d3-11ea-9cc8-4901656f93d1.pn">
+<img width="400" alt="loss" src="https://user-images.githubusercontent.com/31740043/79679333-1d6d3400-81d3-11ea-9cc8-4901656f93d1.png">
 </p>
 
 

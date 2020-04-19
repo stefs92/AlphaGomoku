@@ -19,6 +19,10 @@ Our starting goal was to simply train a neural network to predict the next move 
 
 Where the long string of penta-decimal numbers specifies the board coordinates of Gomoku moves.
 
+<p align="center">
+<img width="249" alt="Screen Shot 2020-04-13 at 8 59 59 PM" src="https://user-images.githubusercontent.com/31740043/79678687-fa8b5180-81cb-11ea-9943-343c38e5bf97.PNG">
+</p>
+
 ![game](https://user-images.githubusercontent.com/31740043/79678687-fa8b5180-81cb-11ea-9943-343c38e5bf97.PNG)
 
 

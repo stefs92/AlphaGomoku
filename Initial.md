@@ -29,7 +29,7 @@ Next, we turned this game string into a sequence of 28 images representing the s
 
 The neural network architecture we used came from [[2]](https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning), and took the following form,
 
-
+![model](https://user-images.githubusercontent.com/31740043/79679151-57d5d180-81d1-11ea-95d3-1f3b453120d3.PNG)
 
 Neural net architecture and training stuff ... this will take a day or so
 

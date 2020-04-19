@@ -27,7 +27,16 @@ This entry first specifies the year of the competion, the players and the winner
 
 Next, we turned this game string into a sequence of 28 images representing the states of the board at different times during the game. Those would correspond to inputs to our neural network. The output was a single number specifying one of 15^2 = 225 possible next moves. Some additional preprocessing included removing the duplicate board game states from the dataset. This was done by first sorting the list of board states, and then iterating through this dataset and collecting neighboring identical boards.     
 
-Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...
+The neural network architecture we used came from [[2]], and took the following form,
+
+model = keras.models.Sequential()
+model.add(keras.layers.Conv2D(filters = 16, kernel_size = 5, activation = 'relu', padding = 'SAME', input_shape = (15,15,3)))
+model.add(keras.layers.Dropout(0.2))
+model.add(keras.layers.Conv2D(filters = 16, kernel_size = 3, activation = 'relu', padding = 'SAME'))
+model.add(keras.layers.Dropout(0.2))
+model.add(keras.layers.Conv2D(filters = 16, kernel_size = 3, activation = 'relu', padding = 'SAME'))
+model.add(keras.layers.Flatten())
+model.add(keras.layers.Dense(225, activation = 'softmax'))
 
 Neural net architecture and training stuff ... this will take a day or so
 

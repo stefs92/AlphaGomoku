@@ -25,7 +25,9 @@ This entry first specifies the year of the competion, the players and the winner
 
 Note that while no player has managed to connect 5 tokens yet, the white has already won by constructing two unrestricteed sequences of 3 tokens.
 
-In order to get this data into a form amenable to applications of machine learning, the game string shown above had to be turned into a sequence of 
+Next, we turned this game string into a sequence of 28 images representing the states of the board at different times during the game. Those would correspond to inputs to our neural network. The output was a single 
+
+In order to get this data into a form amenable to applications of machine learning, the game string shown above had to be turned into a sequence of 28 board states.
 
 Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...
 

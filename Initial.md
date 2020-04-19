@@ -30,12 +30,19 @@ Next, we turned this game string into a sequence of 28 images representing the s
 The neural network architecture we used came from [[2]], and took the following form,
 
 model = keras.models.Sequential()
+
 model.add(keras.layers.Conv2D(filters = 16, kernel_size = 5, activation = 'relu', padding = 'SAME', input_shape = (15,15,3)))
+
 model.add(keras.layers.Dropout(0.2))
+
 model.add(keras.layers.Conv2D(filters = 16, kernel_size = 3, activation = 'relu', padding = 'SAME'))
+
 model.add(keras.layers.Dropout(0.2))
+
 model.add(keras.layers.Conv2D(filters = 16, kernel_size = 3, activation = 'relu', padding = 'SAME'))
+
 model.add(keras.layers.Flatten())
+
 model.add(keras.layers.Dense(225, activation = 'softmax'))
 
 Neural net architecture and training stuff ... this will take a day or so

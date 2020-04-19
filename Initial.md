@@ -41,7 +41,7 @@ This neural network achieved a decent validation accuracy of around 55% pretty q
 <img width="400" alt="loss" src="https://user-images.githubusercontent.com/31740043/79679333-1d6d3400-81d3-11ea-9cc8-4901656f93d1.png">
 </p>
 
-
+We have now obtained a neural network capable of imitating human players by predicting their next move, and plan to use this to jump-start the training of our AI Gomoku player. 
 # References
 
 1. Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku

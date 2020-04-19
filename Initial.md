@@ -25,7 +25,7 @@ This entry first specifies the year of the competion, the players and the winner
 </p>
 
 
-Next, we turned this game string into a sequence of 28 images representing the states of the board at different times during the game. Those would correspond to inputs to our neural network. The output was a single number specifying one of 15^2 = 225 possible next moves. 
+Next, we turned this game string into a sequence of 28 images representing the states of the board at different times during the game. Those would correspond to inputs to our neural network. The output was a single number specifying one of 15^2 = 225 possible next moves. Some additional preprocessing included removing the duplicate board game states from the dataset. This was done by first sorting the list of board states, and then iterating through this dataset and collecting neighboring identical boards.     
 
 Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...
 

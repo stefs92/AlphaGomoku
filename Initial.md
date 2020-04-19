@@ -25,7 +25,7 @@ This entry first specifies the year of the competion, the players and the winner
 
 Note that while no player has managed to connect 5 tokens yet, the white has already won by constructing two unrestricteed sequences of 3 tokens.
 
-Some data preprocessing included turing this game string into a sequence of board states, and 
+In order to get this data into a form amenable to applications of machine learning, we had to turn the game string into 
 
 Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...
 

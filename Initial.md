@@ -23,7 +23,7 @@ This entry first specifies the year of the competion, the players and the winner
 <img width="249" alt="Screen Shot 2020-04-13 at 8 59 59 PM" src="https://user-images.githubusercontent.com/31740043/79678687-fa8b5180-81cb-11ea-9943-343c38e5bf97.PNG">
 </p>
 
-Note that while no player has managed to connect 5 tokens yet, the white has already won.
+Note that while no player has managed to connect 5 tokens yet, the white has already won by constructing two unrestricteed sequences of 3 tokens.
 
 
 Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...

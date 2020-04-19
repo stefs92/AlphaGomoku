@@ -17,13 +17,13 @@ Our starting goal was to simply train a neural network to predict the next move 
 
 1997,382=[marik,om-by,-,88FFFE98798A6A975B4C59999A7BA86C5D5C3C7A4B896BA7B6A99687,?,?]
 
-Where the long string of penta-decimal numbers specifies the board coordinates of Gomoku moves.
+Where the long string of penta-decimal numbers specifies the board coordinates of Gomoku moves. The sequence of moves in this game of Gomoku is shown in the following figure,
 
 <p align="center">
 <img width="249" alt="Screen Shot 2020-04-13 at 8 59 59 PM" src="https://user-images.githubusercontent.com/31740043/79678687-fa8b5180-81cb-11ea-9943-343c38e5bf97.PNG">
 </p>
 
-![game](https://user-images.githubusercontent.com/31740043/79678687-fa8b5180-81cb-11ea-9943-343c38e5bf97.PNG)
+Note that while no player has managed to connect 5 tokens yet, the white has already won.
 
 
 Training the network on expert games (around 10000) to recognize the next move and reward function. Some snapshots of our dataset ...

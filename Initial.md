@@ -54,3 +54,5 @@ In the language of DeepMind, our model is a "policy head", advising AI which nex
 3. From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
 
 4. Gomoku datasets http://mostovlyansky.narod.ru/iedown.html
+
+5. AlphaGomoku: An AlphaGo-based Gomoku Artificial Intelligence using Curriculum Learning - Zheng Xie, Xing Yu Fu, Jin Yuan Yu, Likelihood Lab, https://arxiv.org/pdf/1809.10595.pdf 

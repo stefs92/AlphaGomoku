@@ -22,3 +22,7 @@ At this point, we were in a position to try out a slightly more sophisticated al
 We wanted to emulate the AlphaZero algorithm, which worked in the following way. Prior to making each move, simulations of the remainder of the game are made. Since the space of possible games is generally way too large to efficiently cover with a search algorithm, the search is done by looking at a set of the likely games randomly sampled using the probabilities from "policy head" and values from "value head". While AlphaGo does around 1000 simulations at each step, even a much smaller number of simulations looks too computationally intensive for us, with each simulation taking on the order of a minute to finish.
 
 
+### Future Work
+
+The most important task going forward is to speed up the self-play process by removing inefficiencies in our code and using parallel processing, perhaps using the Cuda library.
+

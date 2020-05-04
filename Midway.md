@@ -5,9 +5,9 @@ In our initial blog post, we wrote about training a neural network on the datase
 
 Since we were curious about whether our neural network has actually learned important elements of the game or not, we decided to quickly code a self-playing module and visualize its performance, before fully implementing the AlphaZero algorithm. We used our trained "policy head", giving us the probability distribution over possible moves, to iteratively generate the next move until one of the AI players was in the position to win by connecting 5 tokens. Python's ipywidget library proved to be very useful for visualizing the games, specifically its objects interact and Play. You can see one of the sample games below,
 
-<p align="center">
-<![movie](https://user-images.githubusercontent.com/31740043/80993579-4c0d2080-8e09-11ea-9149-3533c65e79e7.gif)>
-</p>
+
+![movie](https://user-images.githubusercontent.com/31740043/80993579-4c0d2080-8e09-11ea-9149-3533c65e79e7.gif)
+
 
 Predictably, our AI is pretty bad at playing the game, as it is missing key components - the "value head" evaluating the chance of winning for different board states, as well as the ability to simulate the future. In order to rectify the first problem, we went back to our dataset of human games. Keeping track of the winner of each game, we assigned a score of +1, -1 or 0 (in case of a draw) to each board state of a given game and averaged those out over the dataset. Then, a neural network of the same architecture as in the initial blog post (except the final layer, adopted to the new regression task) is trained to predict the board state value. We obtain a not great, not terrible performance as seen in the plot below,
 

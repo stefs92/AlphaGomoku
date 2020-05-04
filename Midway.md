@@ -13,4 +13,4 @@ Predictably, our AI is pretty bad at playing the game, as it is missing key comp
 
 As we can see, the best validation accuracy is achieved very early in the training process, and there is significant overfitting later on.
 
-At this point, we were in a position to try out a slightly more sophisticated algorithm.
+At this point, we were in a position to try out a slightly more sophisticated algorithm. Our agent can decide on which move to make considering the value functions of the 

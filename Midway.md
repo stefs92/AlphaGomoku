@@ -5,5 +5,5 @@ In our initial blog post, we wrote about training a neural network on the datase
 
 Since we were curious about whether our neural network has actually learned important elements of the game or not, we decided to quickly code a self-playing module and visualize its performance, before fully implementing the AlphaZero algorithm. We used our trained "policy head", giving us the probability distribution over possible moves, to iteratively generate the next move until one of the AI players was in the position to win by connecting 5 tokens. Python's ipywidget library proved to be very useful for visualizing the games, specifically its classes interact and Play. You can see one of the sample games generated this way below,
 
-Predictably, our AI is pretty bad at playing Gomoku.
+Predictably, our AI is pretty bad at playing the game, as it is missing key components - the "value head" evaluating different possiblities, as well as the ability to simulate the future. 
 

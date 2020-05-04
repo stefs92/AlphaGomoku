@@ -11,4 +11,4 @@ Predictably, our AI is pretty bad at playing the game, as it is missing key comp
 <img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/80948589-6bcc2680-8dc0-11ea-9827-2d1b30cf1757.png">
 </p>
 
-As we can see, the best validation accuracy is achieved very early on, and there is significant overfitting later on.
+As we can see, the best validation accuracy is achieved very early in the training process, and there is significant overfitting later on.

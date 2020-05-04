@@ -8,6 +8,6 @@ Since we were curious about whether our neural network has actually learned impo
 Predictably, our AI is pretty bad at playing the game, as it is missing key components - the "value head" evaluating the chance of winning for different board states, as well as the ability to simulate the future. In order to rectify the first problem, we went back to our dataset of human games. Keeping track of the winner of each game, we assigned a score of +1, -1 or 0 (in case of a draw) to each board state of a given game and averaged those out over the dataset. Then, a neural network of the same architecture as in the initial blog post (except the final layer, adopted to the new regression task) is trained to predict the board state value. We obtain a not great, not terrible performance as seen in the plot below,
 
 <p align="center">
-<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/79679275-8bfdc200-81d2-11ea-9764-779e2714dcf7.png">
+<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/80948589-6bcc2680-8dc0-11ea-9827-2d1b30cf1757.png">
 </p>
 

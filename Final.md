@@ -11,8 +11,7 @@ After applying the same CNN architecture from previous two blog posts (inspired 
 <<img width="200" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81613680-e68ed600-93ac-11ea-840a-c94590e37cbc.png">
 </p>
 
-Our final model architecture ... Our residual block consisted of two convolutional layers separated by dropout and batch normalization. 
-
+This stack of residual blocks was preceeded by a single convolutional layer, and followed by two dense layers. Every convolutional layer in this network had 16 filters. 
 
 We got the following accuracy and loss curves,
 

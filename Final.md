@@ -5,9 +5,11 @@ After training our neural networks on a dataset of Gomoku games and setting up t
 
 Prof. Potter has let us know that, since Connect-4 is a solved game, there exists a great dataset that might be worthwhile for us to explore. This dataset, due to Dr. John Tromp, contains winner information for a full set of 8-token board states in which neither player has won yet. Since we were curious how good machine learning can be in capturing this information, we decided to go ahead and train a neural net to predict a winner given a board state. This is similar to the analysis we've done for Gomoku, but this time we had an advantage of starting from a clean dataset for an exactly solved game. 
 
-After applying the same CNN architecture from previous two blog posts (inspired by [1]), we managed to squeeze some extra accuracy out of our model by going deeper and applying skip connections, in the spirit of AlphaZero architecture from [2]. Our best-performing model consisted of a stack of 10 residual blocks, each of the follwing architecture,
+After applying the same CNN architecture from previous two blog posts (inspired by [1]), we managed to squeeze some extra accuracy out of our model by going deeper and applying skip connections, in the spirit of AlphaZero architecture from [2]. Our best-performing model consisted of a stack of 10 residual blocks, each of the following architecture,
 
-
+<p align="center">
+<<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81613680-e68ed600-93ac-11ea-840a-c94590e37cbc.png">
+</p>
 
 Our final model architecture ... Our residual block consisted of two convolutional layers separated by dropout and batch normalization. 
 

@@ -7,7 +7,7 @@ Prof. Potter has let us know that, since Connect-4 is a solved game, there exist
 
 After tinkering a little bit with our neural net architecture, we found that going deeper and adding a number of convolutional modules with skip connections leads to a slightly better performance over the simple neural network we used for Gomoku.
 
-Our final model architecture ...
+Our final model architecture ... Our residual block consisted of two convolutional layers separated by dropout and batch normalization. 
 
 
 We got the following results,

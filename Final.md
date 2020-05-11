@@ -5,7 +5,12 @@ After training our neural networks on a dataset of Gomoku games and setting up t
 
 Prof. Potter has let us know that, since Connect-4 is a solved game, there exists a dataset containing the (exact) winner information for board states in Connect-4. This dataset, due to Dr. John Tromp, contains winner information for a full set of 8-token board states in which neither player has won yet. Since we were curious how good machine learning can be in capturing this information, we decided to go ahead and train a neural net to predict a winner given board state. This is similar to the analysis we've done for Gomoku, but this time we had an advantage of starting from a clean dataset for an exactly solved game.
 
-After tinkering a little bit with our neural net architecture, we found that going deeper and adding a number of convolutional modules with skip connections leads to a slightly better performance over the simple neural network we used for Gomoku. We got the following results,
+After tinkering a little bit with our neural net architecture, we found that going deeper and adding a number of convolutional modules with skip connections leads to a slightly better performance over the simple neural network we used for Gomoku.
+
+Our final model architecture ...
+
+
+We got the following results,
 
 <p align="center">
 <img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81521332-d88d7680-9314-11ea-8033-10babf8a7be7.png">

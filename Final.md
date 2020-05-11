@@ -23,7 +23,7 @@ We got the following accuracy and loss curves,
 <img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81521369-fd81e980-9314-11ea-9beb-9213ecd440a2.png">
 </p>
 
-Our neural network is able to predict the winner of a given 8-token board state with a validation accuracy of around 86%. This sounds less impressive, though, if we remember that Connect-4 is a highly asymmetrical game between the two players, with the first player being a significant advantage. In the dataset we were working with, optimally behaving first player would win in around 65% of cases, second player in around 25% and around 10% of games would end in a draw.
+Our neural network is able to predict the winner of a given 8-token board state with a validation accuracy of around 87%. 
 
 Since tinkering with different types of CNN architectures is unable to produce a better accuracy on this dataset, it can be interesting to contemplate what this might mean for the applications of deep learning to game theory. Algorithms such as AplhaZero do not directly use neural nets to decide on the next move; rather, they perform a version of minimax algorithm in which the neural network is used to select moves to base simulations on. In order for this to be successful, it may not be necessary to have neural network calculate the value of the state with extreme precision.
 

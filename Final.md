@@ -8,3 +8,5 @@ Prof. Potter has let us know that, since Connect-4 is a solved game, there exist
 After tinkering a little bit with our neural net architecture, we found that going deeper and adding a number of convolutional modules with skip connections leads to a slightly better performance over the simple neural network we used for Gomoku. We got the following results,
 
 ![connect_accuracy](https://user-images.githubusercontent.com/31740043/81521332-d88d7680-9314-11ea-8033-10babf8a7be7.png)
+
+![connect_loss](https://user-images.githubusercontent.com/31740043/81521369-fd81e980-9314-11ea-9beb-9213ecd440a2.png)

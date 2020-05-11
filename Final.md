@@ -13,7 +13,7 @@ After applying the same CNN architecture from previous two blog posts (inspired 
 
 This stack of residual blocks was preceeded by a single convolutional layer, and followed by two dense layers, with 100 hidden neurons. Every convolutional layer in this network had 16 filters. We found that using both dropouts and L1 regularizations yields the best results, and tuned the dropout parameter to 0.3 and L1 regularization parameter to 0.5 in all convolutional layers.
 
-Batch normalizations played a pretty important role in our Gomoku model. During our initial experimentation with this model, we also used batch normalizations as a part of our residual blocks. However, this produced slightly suboptimal results compared to our final model, which got rid of batch normalizations altogether. After doing a bit of research on this phenomonon, we realized that this is actually a pretty common theme, among several different neural network architectures, as documented in [5]. The thereoretical explation given there has to do with batch statistics ... 
+Batch normalizations played a pretty important role in our Gomoku model. During our initial experimentation with this model, we also used batch normalizations as a part of our residual blocks. However, this produced slightly suboptimal results compared to our final model, which got rid of batch normalizations altogether. After doing a bit of research on this phenomonon, we realized that this is actually a pretty common theme, among several different neural network architectures, as documented in [5]. The thereoretical explation given there has to do with the fact that dropouts mess with batch statistics ...
 
 We got the following accuracy and loss curves,
 

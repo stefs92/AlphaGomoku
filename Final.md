@@ -10,7 +10,7 @@ After tinkering a little bit with our neural net architecture, we found that goi
 Our final model architecture ... Our residual block consisted of two convolutional layers separated by dropout and batch normalization. 
 
 
-We got the following results,
+We got the following accuracy and loss curves,
 
 <p align="center">
 <img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81521332-d88d7680-9314-11ea-8033-10babf8a7be7.png">

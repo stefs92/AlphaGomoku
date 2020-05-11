@@ -1,2 +1,2 @@
 # AlphaGomoku
-Training an AI to play the game of Gomoku using reinforcement learning
+Training a neural network to explre board game configurations

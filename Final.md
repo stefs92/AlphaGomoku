@@ -21,3 +21,5 @@ We got the following results,
 </p>
 
 Our neural network is able to predict the winner of a given 8-token board state with a validation accuracy of around 86%. This sounds less impressive, though, given the fact that Connect-4 is a highly asymmetrical game between the two players, with the first player being a significant advantage. In the dataset we were working with, optimally behaving first player would win in around 65% of cases, second player in around 25% and around 10% of games would end in a draw. 
+
+# Future Work

@@ -15,4 +15,4 @@ After tinkering a little bit with our neural net architecture, we found that goi
 <img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81521369-fd81e980-9314-11ea-9beb-9213ecd440a2.png">
 </p>
 
-Our neural network is able to predict the winner of a given 8-token board state with an accuracy of around 86%. 
+Our neural network is able to predict the winner of a given 8-token board state with a validation accuracy of around 86%. 

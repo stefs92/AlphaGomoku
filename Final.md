@@ -16,7 +16,8 @@ This stack of residual blocks was preceeded by a single convolutional layer, and
 We got the following accuracy and loss curves,
 
 <p align="center">
-<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81521332-d88d7680-9314-11ea-8033-10babf8a7be7.png">
+<img width="400" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81614485-1e4a4d80-93ae-11ea-8da1-087ef12f2f5d.png
+">
 </p>
 
 <p align="center">

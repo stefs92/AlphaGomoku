@@ -3,9 +3,11 @@
 
 After training our neural networks on a dataset of Gomoku games and setting up the code that would run self-play, we seemed to be in a good place. However, the computational complexity of the task ahead of us proved to be a significant difficulty. AlphaZero algorithm runs a number of game simulations (in AphaGo's case, around 1000) at each game step in order to determine which move to make. Furthermore, their game agent has spent a human equivalent of several thousand years playing Go. On the other hand, due to the fact that we are running an unparallelized Python code, a single simulation takes of the order of a minute to complete. So, we have decided to take a step back and think of some other ways we can improve our understanding of Gomoku and related games through deep learning.
 
-Prof. Potter has let us know that, since Connect-4 is a solved game, there exists a dataset containing the (exact) winner information for board states in Connect-4. This dataset, due to Dr. John Tromp, contains winner information for a full set of 8-token board states in which neither player has won yet. Since we were curious how good machine learning can be in capturing this information, we decided to go ahead and train a neural net to predict a winner given board state. This is similar to the analysis we've done for Gomoku, but this time we had an advantage of starting from a clean dataset for an exactly solved game.
+Prof. Potter has let us know that, since Connect-4 is a solved game, there exists a great dataset that might be worthwhile for us to explore. This dataset, due to Dr. John Tromp, contains winner information for a full set of 8-token board states in which neither player has won yet. Since we were curious how good machine learning can be in capturing this information, we decided to go ahead and train a neural net to predict a winner given a board state. This is similar to the analysis we've done for Gomoku, but this time we had an advantage of starting from a clean dataset for an exactly solved game. 
 
-After tinkering a little bit with our neural net architecture, we found that going deeper and adding a number of convolutional modules with skip connections leads to a slightly better performance over the simple neural network we used for Gomoku.
+After applying the same CNN architecture from previous two blog posts (inspired by [1]), we managed to squeeze some extra accuracy out of our model by going deeper and applying skip connections, in the spirit of AlphaZero architecture from [2]. Our best-performing model consisted of a stack of 15 residual blocks, each of the follwing architecture,
+
+
 
 Our final model architecture ... Our residual block consisted of two convolutional layers separated by dropout and batch normalization. 
 
@@ -27,3 +29,7 @@ Since tinkering with different types of CNN architectures is unable to produce a
 # Future Work
 
 Gomoku ...
+
+# References
+
+[5] https://arxiv.org/pdf/1801.05134.pdf

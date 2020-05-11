@@ -11,7 +11,7 @@ After applying the same CNN architecture from previous two blog posts (inspired 
 <<img width="200" alt="accuracy" src="https://user-images.githubusercontent.com/31740043/81613680-e68ed600-93ac-11ea-840a-c94590e37cbc.png">
 </p>
 
-This stack of residual blocks was preceeded by a single convolutional layer, and followed by two dense layers. Every convolutional layer in this network had 16 filters. 
+This stack of residual blocks was preceeded by a single convolutional layer, and followed by two dense layers, with 100 hidden neurons. Every convolutional layer in this network had 16 filters. We found that using both dropouts and L1 regularizations yields the best results, and tuned the dropout parameter to 0.3 and L1 regularization parameter to 0.5 in all convolutional layers.
 
 We got the following accuracy and loss curves,
 

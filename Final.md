@@ -33,7 +33,7 @@ Since tinkering with different types of CNN architectures seems unable to produc
 
 Ideally, if given the opportunity, we would like to train our model with more GPU power over a longer amount of time, to increase the training time. 
 
-Furthermore, we would like to see if our AI Gomoku can learn any unconventional strategies that can help it be more successful. For example, in lecture we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle doesn't have to move itself [9]. Ultimately, it would require mroe time and GPU power to study a pattern like this.
+Furthermore, we would like to see if our AI Gomoku can learn any unconventional strategies that can help it be more successful. For example, in lecture we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle doesn't have to move itself [9]. Ultimately, it would require more time and GPU power to study a pattern like this.
 
 # References
 

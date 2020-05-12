@@ -31,7 +31,9 @@ Since tinkering with different types of CNN architectures seems unable to produc
 
 # Future Work
 
-Gomoku ...
+Ideally, if given the opportunity, we would like to train our model with more GPU power over a longer amount of time, to increase the training time. 
+
+Furthermore, we would like to see if our AI Gomoku can learn any unconventional strategies that can help it be more successful. For example, in lecture we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle doesn't have to move itself [9]. Ultimately, it would require mroe time and GPU power to study a pattern like this.
 
 # References
 
@@ -49,3 +51,5 @@ Gomoku ...
 7. Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., … Hassabis, D. (2017). Mastering the game of Go without human knowledge. Nature, 550(7676), 354–359. doi: 10.1038/nature24270
 
 8. https://arxiv.org/pdf/1801.05134.pdf
+
+9. Lecture 21 - Lecture 22: Reinforcement Learning 

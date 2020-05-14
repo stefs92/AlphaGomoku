@@ -37,6 +37,7 @@ We feel that with more computational power, we can use reinforcement learning to
 ## References
 
 1. Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku
+
 2. Shao, Kun & Zhao, Dongbin & Tang, Zhentao & Zhu, Yuanheng. (2016). Move prediction in Gomoku using deep learning. 292-297. 10.1109/YAC.2016.7804906.  - https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning
 
 3. From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
@@ -50,3 +51,5 @@ We feel that with more computational power, we can use reinforcement learning to
 7. Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., … Hassabis, D. (2017). Mastering the game of Go without human knowledge. Nature, 550(7676), 354–359. doi: 10.1038/nature24270
 
 8. Dieleman, S., De Fauw, J., Kavukcuoglu, K. (2016). Exploiting Cyclic Symmetry in Convolutional Neural Networks, https://arxiv.org/pdf/1602.02660.pdf
+
+9. DATA 2040 Lecture 21 - Lecture 22: Reinforcement Learning 

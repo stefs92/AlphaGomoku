@@ -69,4 +69,4 @@ In any case, we believe that with more computational time and coffee we can even
 
 9. DATA 2040 Lecture 21 - Lecture 22: Reinforcement Learning 
 
-10. 8. Dieleman, S., De Fauw, J., Kavukcuoglu, K. (2016). Exploiting Cyclic Symmetry in Convolutional Neural Networks, https://arxiv.org/pdf/1602.02660.pdf
+10. Dieleman, S., De Fauw, J., Kavukcuoglu, K. (2016). Exploiting Cyclic Symmetry in Convolutional Neural Networks, https://arxiv.org/pdf/1602.02660.pdf

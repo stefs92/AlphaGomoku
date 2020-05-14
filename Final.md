@@ -45,7 +45,7 @@ Another idea to play with is trying to incorporate the symmetries of the problem
 
 Then, we have encountered several interesting ideas  in the literature that we would like to implement. One potentially very useful idea is called curriculum learning [[5]](https://arxiv.org/pdf/1809.10595.pdf), and has to do with introducing simpler ideas to our player first and then building up its skill. For example, like the authors of this paper, we may try to generate a dataset of important moves ourselves, and feed it to our neural network. Additionally, we can use non - deep learning based mentor AI to generate more training data, and play against our model.
 
-In any case, we believe that with more computational power and coffee we can eventually make AlphaGomoku work.
+In any case, we believe that with more computational time and coffee we can eventually make AlphaGomoku work.
 
 
 

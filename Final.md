@@ -35,13 +35,18 @@ Since tinkering with different types of CNN architectures seems unable to produc
 ## Future Work
 
 
-Although we didn't implement reinforcement learning as planned - due to limitations with  computational power - we were able to still achieve a validation accuracy of around 87% for prediciting the next winner, given an 8-token board state. 
+Although we didn't implement reinforcement learning as planned - due to limitations with  computational power - we were able to still achieve a validation accuracy of around 87% for prediciting the next winner in Connect-4, given an 8-token board state. This result can be used to efficiently jump start a great Connect-4 player.
 
-We certainly plan to continue working on implementation of our Gomoku player. The most important task going forward is to speed up the self-play process by removing inefficiencies in our code and using parallel processing. Learning more about Cuda library seems like a good place to start.
+More importantly, we plan to continue to work on implementing a Gomoku player. The most important task going forward is to speed up the self-play process by removing inefficiencies in our code and using parallel processing. Learning more about Cuda library seems like a good place to start.
 
 Something else to explore is experimenting with discounted state values for states that are far removed from the end of the game. Authors of AlphaGo assigned +1 to every state in the winning game and -1 to every losing state; however, due to their immense computational power, they were able to generate huge training datasets. With our more limited resources, however, this may not be the best way to go. Something else to consider if we are unable to achieve significant speedups is doing away with the "policy head" entirely and focusing on just the values. In this case, every "simulation" of the game could serve as a training entry to further improve the neural network estimating the value of game states. 
 
 Another idea to play with is trying to incorporate the symmetries of the problem into our neural network, in order to effectively decrease the size of the game configuration space, along the lines of [[8]](https://arxiv.org/pdf/1602.02660.pdf).  Our 15x15 board has reflection symmetries around a horizontal, vertical, and two diagonal axes containing this point. An option to consider if we are unable to construct a neural network that encodes those symmetries is simply enlarging our training sets by applying those symmetry transformations.
+
+Then, we have encountered several interesting ideas  in the literature that we would like to implement. One potentially very useful idea is called curriculum learning [[5]](https://arxiv.org/pdf/1809.10595.pdf), and has to do with introducing simpler ideas to our player first and then building up its skill. For example, like the authors of this paper, we may try to generate a dataset of important moves ourselves, and feed it to our neural network. Additionally, we can use non - deep learning based mentor AI to generate more training data, and play against our model.
+
+In any case, we believe that with more computational power and coffee we can eventually make AlphaGomoku work.
+
 
 
 ## References

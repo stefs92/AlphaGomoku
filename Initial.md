@@ -44,7 +44,7 @@ This neural network achieved a decent validation accuracy of around 55% pretty q
 <img width="261" alt="Screen Shot 2020-05-12 at 3 44 43 PM" src="https://user-images.githubusercontent.com/54907300/81739172-dc321200-9468-11ea-896d-1c30eeb4b2dd.png">
 </p>
 <p align="center">
-  <b>Fig. 4: Accuracies and Losses of Example Gmae</b><br>
+  <b>Fig. 4: Accuracies and Losses of Example Game</b><br>
 </p>
 
 

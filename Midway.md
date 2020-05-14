@@ -32,7 +32,7 @@ We wanted to emulate the AlphaZero algorithm, which worked in the following way.
 
 ## Adjustments to Consider for Reinforcement Learning Approach
 
-
+We feel that with more computational power, we can use reinforcement learning to better train an AI Gomoku. We also would like to see if reinforcement learning can lead to the AI learning any unconventional strategies that can help it be more successful. For example, in our course lecture, we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle didn't have to move itself [9]. Ultimately, it would require more time and GPU power for our AI Gomoku study a pattern like this.
 
 ## References
 

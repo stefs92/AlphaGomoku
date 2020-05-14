@@ -34,9 +34,15 @@ Since tinkering with different types of CNN architectures seems unable to produc
 
 ## Future Work
 
+
 Although we didn't implement reinforcement learning as planned - due to limitations with  computational power - we were able to still achieve a validation accuracy of around 87% for prediciting the next winner, given an 8-token board state. 
 
-At the same time, we feel with more computational power, we can use reinforcement learning to better train an AI Gomoku. We also would like to see if reinforcement learning can lead to the AI learning any unconventional strategies that can help it be more successful. For example, in our course lecture, we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle didn't have to move itself [9]. Ultimately, it would require more time and GPU power for our AI Gomoku study a pattern like this.
+We certainly plan to continue working on implementation of our Gomoku player. The most important task going forward is to speed up the self-play process by removing inefficiencies in our code and using parallel processing. Learning more about Cuda library seems like a good place to start.
+
+Something else to explore is experimenting with discounted state values for states that are far removed from the end of the game. Authors of AlphaGo assigned +1 to every state in the winning game and -1 to every losing state; however, due to their immense computational power, they were able to generate huge training datasets. With our more limited resources, however, this may not be the best way to go. Something else to consider if we are unable to achieve significant speedups is doing away with the "policy head" entirely and focusing on just the values. In this case, every "simulation" of the game could serve as a training entry to further improve the neural network estimating the value of game states. 
+
+Another idea to play with is trying to incorporate the symmetries of the problem into our neural network, in order to effectively decrease the size of the game configuration space, along the lines of [[8]](https://arxiv.org/pdf/1602.02660.pdf).  Our 15x15 board has reflection symmetries around a horizontal, vertical, and two diagonal axes containing this point. An option to consider if we are unable to construct a neural network that encodes those symmetries is simply enlarging our training sets by applying those symmetry transformations.
+
 
 ## References
 

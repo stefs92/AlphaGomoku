@@ -1,3 +1,12 @@
+#### Stefan Stanojevic, Kevin Qualls
+#### DATA 2040: Deep Learning and Advanced Topics in Data Science
+
+Hello! You have reached our website for our DATA 2040 Final project!
+
+We are graduate students at Brown University building an AI version of Gomoku.
+
+To view the machine-learning techniuqes implemented for this project, check out the following [Github Repository](https://github.com/stefs92/AlphaGomoku.git). Also below are blog posts that describe the implementations. 
+
 # Understanding the Playing Field  
 ## Initial Blog Post - Stefan Stanojevic, Kevin Qualls
 

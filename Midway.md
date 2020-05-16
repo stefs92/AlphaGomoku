@@ -32,24 +32,38 @@ We wanted to emulate the AlphaZero algorithm, which worked in the following way.
 
 ## Adjustments to Consider for Reinforcement Learning Approach
 
-We feel that with more computational power, we can use reinforcement learning to better train an AI Gomoku. We also would like to see if reinforcement learning can lead to the AI learning any unconventional strategies that can help it be more successful. For example, in our course lecture, we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [9]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle didn't have to move itself [9]. Ultimately, it would require more time and GPU power for our AI Gomoku study a pattern like this.
+We feel that with more computational power, we can use reinforcement learning to better train an AI Gomoku. We also would like to see if reinforcement learning can lead to the AI learning any unconventional strategies that can help it be more successful. For example, in our course lecture, we learned how reinforcement learning helped an AI develop a strategy to get ~20% more points in the game CoastRunners 7, without the AI having to complete the game [8]. Additionally, reinforcement learning also helped an AI rack up more points in the game Atari to the point where the bottom paddle didn't have to move itself [8]. Ultimately, it would require more time and GPU power for our AI Gomoku study a pattern like this.
 
 ## References
 
-1. Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku
+[1] Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku
 
-2. Shao, Kun & Zhao, Dongbin & Tang, Zhentao & Zhu, Yuanheng. (2016). Move prediction in Gomoku using deep learning. 292-297. 10.1109/YAC.2016.7804906.  - https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning
+-- Gives an overview of origins of Gomoku as well as the rules of the game.
 
-3. From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
+[2] Shao, Kun & Zhao, Dongbin & Tang, Zhentao & Zhu, Yuanheng. (2016). Move prediction in Gomoku using deep learning. 292-297. 10.1109/YAC.2016.7804906.  - https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning
 
-4. Gomoku datasets http://mostovlyansky.narod.ru/iedown.html
+-- Describes methodology of how to predict moves in Gomoku, using a convolutional neural network model. 
 
-5. AlphaGomoku: An AlphaGo-based Gomoku Artificial Intelligence using Curriculum Learning - Zheng Xie, Xing Yu Fu, Jin Yuan Yu, Likelihood Lab, https://arxiv.org/pdf/1809.10595.pdf 
+[3] From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
 
-6. Wang, Y. (n.d.). Mastering the Game of Gomoku without Human Knowledge. doi: 10.15368/theses.2018.47
+-- Describes how to implement Google DeepMind's AlphaZero approach for Connect4. Methodology can be applied to Gomoku.
 
-7. Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., … Hassabis, D. (2017). Mastering the game of Go without human knowledge. Nature, 550(7676), 354–359. doi: 10.1038/nature24270
+[4] Gomoku datasets http://mostovlyansky.narod.ru/iedown.html
 
-8. Dieleman, S., De Fauw, J., Kavukcuoglu, K. (2016). Exploiting Cyclic Symmetry in Convolutional Neural Networks, https://arxiv.org/pdf/1602.02660.pdf
+-- Archives datasets of Gomoku games. Data is stored in a .bdt file.
 
-9. DATA 2040 Lecture 21 - Lecture 22: Reinforcement Learning 
+[5] AlphaGomoku: An AlphaGo-based Gomoku Artificial Intelligence using Curriculum Learning - Zheng Xie, Xing Yu Fu, Jin Yuan Yu, Likelihood Lab, https://arxiv.org/pdf/1809.10595.pdf 
+
+-- Shows how to implement curriculum learning - a technique that builds the AI Gomoku's strategy and knowledge of the game through progressively difficult tasks. 
+
+[6] Wang, Y. (n.d.). Mastering the Game of Gomoku without Human Knowledge. doi: 10.15368/theses.2018.47
+
+-- Describes implementation of an AI Gomoku without prior knowlege from humans. Provides explanation of the Monte Carlo Tree Search algorithm, which we plan to use for our model. 
+
+[7] Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., … Hassabis, D. (2017). Mastering the game of Go without human knowledge. Nature, 550(7676), 354–359. doi: 10.1038/nature24270
+
+-- Describes reinforcement learning algorithm used for AlphaGo Zero to defeat AlphaGo 100 times to 0. 
+
+[8] DATA 2040 Lecture 21 - Lecture 22: Reinforcement Learning 
+
+-- Describes how reinforcement learning can pick up helpful, unconventional strategies in AI games. 

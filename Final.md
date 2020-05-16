@@ -89,7 +89,7 @@ In any case, we believe that with more computational time and coffee we can even
 
 [10] Li, Xiang, et al. "Understanding the disharmony between dropout and batch normalization by variance shift." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019. https://arxiv.org/pdf/1801.05134.pdf
 
--- Justifys why the performance of our model could be poor, due to dropouts being used before applying batch normalization. 
+-- Justifies why the performance of our model could be poor, due to dropouts being used before applying batch normalization. 
 
 [11] Dieleman, S., De Fauw, J., Kavukcuoglu, K. (2016). Exploiting Cyclic Symmetry in Convolutional Neural Networks, https://arxiv.org/pdf/1602.02660.pdf
 

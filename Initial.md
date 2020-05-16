@@ -1,12 +1,3 @@
-#### Stefan Stanojevic, Kevin Qualls
-#### DATA 2040: Deep Learning and Advanced Topics in Data Science
-
-Hello! You have reached our website for our DATA 2040 Final project!
-
-We are graduate students at Brown University building an AI version of Gomoku.
-
-To view the machine-learning techniuqes implemented for this project, check out the following [Github Repository](https://github.com/stefs92/AlphaGomoku.git). Also below are blog posts that describe the implementations. 
-
 # Understanding the Playing Field  
 ## Initial Blog Post - Stefan Stanojevic, Kevin Qualls
 
@@ -67,12 +58,22 @@ In the language of DeepMind, our model is a "policy head", advising AI which nex
 
 ## References
 
-1. Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku
+[1] Rules for Gomoku - http://www.opengames.com.ar/en/rules/Gomoku
 
-2. Shao, Kun & Zhao, Dongbin & Tang, Zhentao & Zhu, Yuanheng. (2016). Move prediction in Gomoku using deep learning. 292-297. 10.1109/YAC.2016.7804906.  - https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning
+-- Gives an overview of origins of Gomoku as well as the rules of the game.
 
-3. From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
+[2] Shao, Kun & Zhao, Dongbin & Tang, Zhentao & Zhu, Yuanheng. (2016). Move prediction in Gomoku using deep learning. 292-297. 10.1109/YAC.2016.7804906.  - https://www.researchgate.net/publication/312325842_Move_prediction_in_Gomoku_using_deep_learning
 
-4. Gomoku datasets http://mostovlyansky.narod.ru/iedown.html
+-- Describes methodology of how to predict moves in Gomoku, using a convolutional neural network model. 
 
-5. AlphaGomoku: An AlphaGo-based Gomoku Artificial Intelligence using Curriculum Learning - Zheng Xie, Xing Yu Fu, Jin Yuan Yu, Likelihood Lab, https://arxiv.org/pdf/1809.10595.pdf 
+[3] From-scratch implementation of AlphaZero for Connect4 - https://towardsdatascience.com/from-scratch-implementation-of-alphazero-for-connect4-f73d4554002a
+
+-- Describes how to implement Google DeepMind's AlphaZero approach for Connect4. Methodology can be applied to Gomoku.
+
+[4] Gomoku datasets http://mostovlyansky.narod.ru/iedown.html
+
+-- Archives datasets of Gomoku games. Data is stored in a .bdt file.
+
+[5] AlphaGomoku: An AlphaGo-based Gomoku Artificial Intelligence using Curriculum Learning - Zheng Xie, Xing Yu Fu, Jin Yuan Yu, Likelihood Lab, https://arxiv.org/pdf/1809.10595.pdf 
+
+-- Shows how to implement curriculum learning - a technique that builds the AI Gomoku's strategy and knowledge of the game through progressively difficult tasks. 
